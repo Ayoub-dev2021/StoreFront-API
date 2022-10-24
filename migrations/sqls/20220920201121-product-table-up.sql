@@ -1,0 +1,2 @@
+/* Replace with your SQL commands */
+CREATE TABLE products(id SERIAL PRIMARY KEY NOT NULL, product_name VARCHAR NOT NULL, product_code VARCHAR(50), product_price INTEGER, product_desc TEXT, stock_level INTEGER);
